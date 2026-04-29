@@ -26,7 +26,7 @@
 2. Create VPC: `25bw86-vpc` (CIDR: 10.0.0.0/16)
 3. Create public subnet: `10.0.1.0/24`
 4. Create security group: `25bw86-sg`
-5. Create S3 bucket: `aws s3 mb s3://25bw86-bucket`
+5. Create S3 bucket: `aws s3 mb s3://25bw86-cisc886-bucket`
 
 ### Phase 2 — Data Upload
 ```bash
@@ -37,7 +37,7 @@ python spark/upload_data.py
 
 ### Phase 3 — Spark Preprocessing (AWS EMR)
 1. Launch EMR cluster with Spark
-2. Upload script: `aws s3 cp spark/preprocess.py s3://25bw86-bucket/scripts/`
+2. Upload script: `aws s3 cp spark/preprocess.py s3://25bw86-cisc886-bucket/scripts/`
 3. Submit job via EMR console
 4. Terminate cluster after job completes
 

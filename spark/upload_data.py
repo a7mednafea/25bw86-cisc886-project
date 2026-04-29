@@ -19,7 +19,7 @@ print("=" * 60)
 
 MAX_RECORDS = 500_000
 OUTPUT_FILE = "raw_data.jsonl"
-BUCKET      = "25bw86-bucket"
+BUCKET = "25bw86-cisc886-bucket"
 S3_KEY      = "raw-data/raw_data.jsonl"
 
 print(f"\nStep 1: Streaming first {MAX_RECORDS:,} records from HuggingFace...")

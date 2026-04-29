@@ -28,7 +28,7 @@ print("=" * 60)
 # ─────────────────────────────────────────────────────────────
 # 2. DEFINE S3 PATHS
 # ─────────────────────────────────────────────────────────────
-S3_BUCKET    = "s3://25bw86-bucket"
+S3_BUCKET = "s3://25bw86-cisc886-bucket"
 RAW_PATH     = f"{S3_BUCKET}/raw-data/raw_data.jsonl"
 TRAIN_PATH   = f"{S3_BUCKET}/processed-data/train/"
 VAL_PATH     = f"{S3_BUCKET}/processed-data/val/"
