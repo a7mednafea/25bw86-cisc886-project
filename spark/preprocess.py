@@ -3,7 +3,7 @@
 CISC 886 - Cloud Computing Project
 Student: 25bw86
 Script: PySpark Preprocessing Pipeline
-Dataset: common-pile/stackexchange (~30.4M records)
+Dataset: common-pile/stackexchange (34,015,234 records)
 Run this on AWS EMR
 =============================================================
 """
