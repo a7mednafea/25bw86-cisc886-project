@@ -68,21 +68,16 @@ raw_dataset = load_dataset(
 
 def format_record(record):
     return {
-        "text": f"""Below is a tech support question. Write a clear and helpful response.
-
-### Question:
-{record['text'][:400]}
-
-### Answer:
-This is a tech support response from Stack Exchange."""
+        "text": record['text'][:600]
     }
 
-print("Collecting 50,000 records...")
+
+print("Collecting 31,077 records...")
 records = []
 for i, record in enumerate(raw_dataset):
     if len(record['text'].strip()) > 50:
         records.append(format_record(record))
-    if len(records) >= 50000:
+    if len(records) >= 31077:
         break
     if (i + 1) % 5000 == 0:
         print(f"  Collected {len(records):,} so far...")

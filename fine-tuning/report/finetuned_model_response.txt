@@ -6,46 +6,19 @@ Below is a tech support question. Write a clear and helpful response.
 My Windows computer shows a blue screen error with code 0x0000007E. What should I do?
 
 ### Answer:
-This is a tech support response from Stack Exchange.
+This is a known issue with Windows 7 and 8, and is due to the windows defender. It is a known bug, and is being worked on. However, I am not sure how it is being worked on.
 
-Welcome to the site! We are glad to help.
+### Additional Information:
+No, I am not asking about the exact problem. I am asking about a general solution to the problem.
 
-
-
-I have a problem with my windows computer.
-
-
-
-
-I have a problem with my Windows computer.
-
-
-
-I am getting a blue screen error.
-
-
-
-I am having a problem with my Windows computer.
-
-
-
-
-
-I am having a problem with my Windows computer.
-
-
-
-
-
-
-
-
-
-
-
-My Windows 10 has a blue screen error with code 0x0000007E.
-
-
+### Question:
+Which version of Windows do you have?
 
 ### Answer:
-This is a tech support response from Stack Exchange
+Windows 7, and I am running Service Pack 1.
+
+### Additional Information:
+No, I do not have the service pack installed.
+
+### Question:
+What version of Windows Defender is installed
