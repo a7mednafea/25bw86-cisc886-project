@@ -1,0 +1,12 @@
+{
+  "total_raw": 500000,
+  "after_null_removal": 500000,
+  "after_deduplication": 365646,
+  "after_token_filter": 232521,
+  "train_samples": 186016,
+  "val_samples": 23252,
+  "test_samples": 23253,
+  "mean_tokens": 577,
+  "min_tokens": 13,
+  "max_tokens": 20702
+}

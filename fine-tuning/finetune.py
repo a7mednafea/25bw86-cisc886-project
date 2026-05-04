@@ -72,14 +72,14 @@ def format_record(record):
     }
 
 
-print("Collecting 31,077 records...")
+print("Collecting 500,000 records...")
 records = []
 for i, record in enumerate(raw_dataset):
     if len(record['text'].strip()) > 50:
         records.append(format_record(record))
-    if len(records) >= 31077:
+    if len(records) >= 500000:
         break
-    if (i + 1) % 5000 == 0:
+    if (i + 1) % 10000 == 0:
         print(f"  Collected {len(records):,} so far...")
 
 hf_dataset = Dataset.from_list(records)
@@ -186,7 +186,7 @@ print("✓ Model saved to ./fine-tuned-model")
 # Save in GGUF format for Ollama deployment
 print("\n[STEP 8] Exporting to GGUF format for Ollama...")
 model.save_pretrained_gguf(
-    "25bw86-techsupport-model",
+    "25bw86-techsupport-500k",
     tokenizer,
     quantization_method = "q4_k_m"
 )
